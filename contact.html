@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Tourisme Tunisie</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Tunisie Tourisme</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="regions.html">Régions</a></li>
+                <li><a href="culture.html">Culture</a></li>
+                <li><a href="hebergements.html">Hébergements</a></li>
+                <li><a href="patrimoine.html">Patrimoine</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Contactez-nous</h1>
+                <div class="breadcrumb">
+                    <a href="index.html">Accueil</a> / 
+                    <span>Contact</span>
+                </div>
+                <p>Nous sommes là pour répondre à toutes vos questions et vous aider à planifier votre séjour en Tunisie</p>
+            </div>
+        </section>
+
+        <section class="contact-intro">
+            <div class="container">
+                <div class="intro-content">
+                    <h2>Une Question ? Besoin d'Aide ?</h2>
+                    <p>Notre équipe d'experts en tourisme tunisien est à votre disposition pour vous conseiller et vous accompagner dans la préparation de votre voyage. Que ce soit pour des informations sur les destinations, les hébergements, ou les activités, nous sommes là pour vous.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-main">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Nos Coordonnées</h3>
+                        
+                        <div class="info-card">
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="info-text">
+                                    <h4>Adresse</h4>
+                                    <p>123 Avenue Habib Bourguiba<br>Tunis 1001, Tunisie</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="info-text">
+                                    <h4>Téléphone</h4>
+                                    <p>+216 71 XXX XXX<br>+216 70 XXX XXX</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="info-text">
+                                    <h4>Email</h4>
+                                    <p>contact@tunisietourisme.com<br>info@tunisietourisme.com</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="info-text">
+                                    <h4>Horaires</h4>
+                                    <p>Lun - Ven : 8h00 - 18h00<br>Sam : 9h00 - 17h00</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-section">
+                            <h4>Suivez-nous</h4>
+                            <div class="social-links">
+                                <a href="#" class="social-link facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <span>Facebook</span>
+                                </a>
+                                <a href="#" class="social-link instagram">
+                                    <i class="fab fa-instagram"></i>
+                                    <span>Instagram</span>
+                                </a>
+                                <a href="#" class="social-link twitter">
+                                    <i class="fab fa-twitter"></i>
+                                    <span>Twitter</span>
+                                </a>
+                                <a href="#" class="social-link linkedin">
+                                    <i class="fab fa-linkedin-in"></i>
+                                    <span>LinkedIn</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-section">
+                        <div class="form-header">
+                            <h3>Envoyez-nous un Message</h3>
+                            <p>Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais</p>
+                        </div>
+
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName">Prénom *</label>
+                                    <input type="text" id="firstName" name="firstName" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName">Nom *</label>
+                                    <input type="text" id="lastName" name="lastName" required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">Email *</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Téléphone</label>
+                                    <input type="tel" id="phone" name="phone">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="country">Pays de résidence</label>
+                                <select id="country" name="country">
+                                    <option value="">Sélectionnez votre pays</option>
+                                    <option value="tunisia">Tunisie</option>
+                                    <option value="france">France</option>
+                                    <option value="germany">Allemagne</option>
+                                    <option value="italy">Italie</option>
+                                    <option value="spain">Espagne</option>
+                                    <option value="algeria">Algérie</option>
+                                    <option value="libya">Libye</option>
+                                    <option value="other">Autre</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Sujet de votre demande *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Choisissez un sujet</option>
+                                    <option value="information">Demande d'information générale</option>
+                                    <option value="booking">Réservation et hébergement</option>
+                                    <option value="itinerary">Conseil d'itinéraire</option>
+                                    <option value="activities">Activités et excursions</option>
+                                    <option value="transport">Transport et déplacements</option>
+                                    <option value="culture">Questions culturelles</option>
+                                    <option value="business">Partenariat professionnel</option>
+                                    <option value="complaint">Réclamation</option>
+                                    <option value="other">Autre</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="travelDates">Dates de voyage prévues (optionnel)</label>
+                                <input type="text" id="travelDates" name="travelDates" placeholder="Ex: Juin 2025">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="travelers">Nombre de voyageurs</label>
+                                <select id="travelers" name="travelers">
+                                    <option value="">Non spécifié</option>
+                                    <option value="1">1 personne</option>
+                                    <option value="2">2 personnes</option>
+                                    <option value="3-4">3-4 personnes</option>
+                                    <option value="5-10">5-10 personnes</option>
+                                    <option value="10+">Plus de 10 personnes</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Votre message *</label>
+                                <textarea id="message" name="message" rows="6" placeholder="Décrivez votre demande en détail..." required></textarea>
+                            </div>
+
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="newsletter" name="newsletter">
+                                    <span class="checkmark"></span>
+                                    Je souhaite recevoir la newsletter avec les actualités et offres spéciales
+                                </label>
+                            </div>
+
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="privacy" name="privacy" required>
+                                    <span class="checkmark"></span>
+                                    J'accepte la <a href="#" target="_blank">politique de confidentialité</a> *
+                                </label>
+                            </div>
+
+                            <div class="form-actions">
+                                <button type="submit" class="btn-submit">
+                                    <i class="fas fa-paper-plane"></i>
+                                    Envoyer le message
+                                </button>
+                                <div class="form-note">
+                                    <i class="fas fa-info-circle"></i>
+                                    Nous vous répondrons sous 24h en période d'ouverture
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-extra">
+            <div class="container">
+                <div class="extra-grid">
+                    <div class="extra-card">
+                        <div class="extra-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h4>Support Client</h4>
+                        <p>Notre service client est disponible pour vous aider dans votre langue</p>
+                    </div>
+                    <div class="extra-card">
+                        <div class="extra-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4>Réservation Sécurisée</h4>
+                        <p>Toutes vos transactions sont protégées et sécurisées</p>
+                    </div>
+                    <div class="extra-card">
+                        <div class="extra-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h4>Expertise Locale</h4>
+                        <p>Plus de 15 ans d'expérience dans le tourisme tunisien</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>À Propos</h3>
+                    <p>Découvrez la Tunisie à travers notre guide touristique complet.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Liens Rapides</h3>
+                    <ul>
+                        <li><a href="regions.html">Régions</a></li>
+                        <li><a href="culture.html">Culture</a></li>
+                        <li><a href="hebergements.html">Hébergements</a></li>
+                        <li><a href="patrimoine.html">Patrimoine</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> contact@tunisietourisme.com</li>
+                        <li><i class="fas fa-phone"></i> +216 XX XXX XXX</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Suivez-nous</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Tunisie Tourisme. Tous droits réservés.</p>
+                <div class="footer-links">
+                    <a href="#">Mentions légales</a>
+                    <a href="#">Politique de confidentialité</a>
+                    <a href="#">Conditions d'utilisation</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Gestion du formulaire de contact
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Animation du bouton
+            const submitBtn = this.querySelector('.btn-submit');
+            const originalText = submitBtn.innerHTML;
+            
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Envoi en cours...';
+            submitBtn.disabled = true;
+            
+            // Simulation d'envoi
+            setTimeout(() => {
+                submitBtn.innerHTML = '<i class="fas fa-check"></i> Message envoyé !';
+                submitBtn.style.background = '#4CAF50';
+                
+                // Réinitialisation après 3 secondes
+                setTimeout(() => {
+                    submitBtn.innerHTML = originalText;
+                    submitBtn.disabled = false;
+                    submitBtn.style.background = '';
+                    this.reset();
+                }, 3000);
+            }, 2000);
+        });
+    </script>
+</body>
+</html> 
