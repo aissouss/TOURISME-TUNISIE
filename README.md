@@ -75,6 +75,4 @@ Aucune installation supplémentaire n’est nécessaire — projet **100% front-
 ---
 
 
-Tu veux une version plus visuelle ?
-
  
