@@ -1,58 +1,80 @@
-# Site Web Touristique Tunisie
+# 🌍 Site Web Touristique — Tunisie
 
-Ce projet est un site web statique présentant les attractions touristiques de la Tunisie. Il est conçu pour être responsive et moderne, offrant une expérience utilisateur optimale sur tous les appareils.
+**Projet Front-End : HTML5 • CSS3 • JavaScript**
 
-## Structure du Projet
+Ce projet présente un **site web statique responsive** mettant en valeur les principales régions touristiques de la Tunisie.
+Il a été conçu pour offrir une interface moderne, fluide et agréable, avec une approche mobile-first pour garantir une expérience optimale sur tous les appareils.
+
+---
+
+## 🗂️ Structure du Projet
 
 ```
 .
 ├── index.html          # Page principale
+├── contact.html        # Page de contact
+├── culture.html        # Culture tunisienne
+├── hebergements.html   # Hôtels et logements
+├── patrimoine.html     # Patrimoine et sites historiques
+├── regions.html        # Régions touristiques
+│
 ├── css/
-│   └── style.css      # Styles du site
+│   └── style.css       # Styles du site (responsive design)
+│
 ├── js/
-│   └── main.js        # Interactivité et animations
-└── images/            # Dossier pour les images
+│   └── main.js         # Animations, menu mobile, interactions
+│
+└── images/             # Images optimisées pour le web
 ```
 
-## Fonctionnalités
+---
 
-- Design responsive
-- Navigation fluide
-- Animations au défilement
-- Menu burger pour mobile
-- Formulaire de contact
-- Intégration des réseaux sociaux
+## ✨ Fonctionnalités
 
-## Installation
+✔️ **Design 100% responsive** (mobile-first)
+✔️ **Menu burger animé** pour smartphones
+✔️ **Animations JavaScript** (apparitions, transitions, scroll)
+✔️ **Navigation fluide entre les pages**
+✔️ **Formulaire de contact**
+✔️ **Pages thématiques** : culture, patrimoine, hébergements, régions
+✔️ **Optimisation des images** pour améliorer les performances
 
-1. Clonez ce dépôt
-2. Ouvrez `index.html` dans votre navigateur
+---
 
-## Personnalisation
+## 🚀 Installation & Utilisation
 
-Pour personnaliser le site :
+```bash
+git clone https://github.com/aissouss/TOURISME-TUNISIE.git
+```
 
-1. Modifiez les images dans le dossier `images/`
-2. Ajustez les couleurs dans `css/style.css` (variables CSS)
-3. Modifiez le contenu dans `index.html`
+Puis ouvrez simplement :
 
-## Technologies Utilisées
+```
+index.html
+```
 
-- HTML5
-- CSS3 (Flexbox, Grid, Variables CSS)
-- JavaScript (ES6+)
-- Font Awesome pour les icônes
+Aucune installation supplémentaire n’est nécessaire — projet **100% front-end**.
 
-## Contribution
+---
 
-Les contributions sont les bienvenues ! N'hésitez pas à :
+## 🎨 Personnalisation
 
-1. Fork le projet
-2. Créer une branche pour votre fonctionnalité
-3. Commiter vos changements
-4. Pousser vers la branche
-5. Ouvrir une Pull Request
+* Modifier les images dans le dossier `images/`
+* Ajuster les couleurs (variables CSS) dans `css/style.css`
+* Adapter le contenu dans les pages `.html`
 
-## Licence
+---
 
-Ce projet est sous licence MIT. 
+## 🛠️ Technologies Utilisées
+
+* **HTML5**
+* **CSS3 (Flexbox, Grid, Variables CSS)**
+* **JavaScript ES6+**
+* **Font Awesome**
+
+---
+
+
+Tu veux une version plus visuelle ?
+
+ 
